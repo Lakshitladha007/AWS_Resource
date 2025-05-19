@@ -10,7 +10,6 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-
       runs-on: self-hosted 
   
     - name: Setup Terraform
